@@ -1,6 +1,6 @@
 const About = () => {
   return(
-    <div className='flex flex-row justify-center items-center h-full'>
+    <div className='flex flex-row justify-center items-center mb-64'>
       <img src='/hello.png' className='w-1/3 mr-12'/>
       <div className='w-2/5'>
         <h1 className='text-3xl font-bold mt-12 text-indigo-600'>Let me introduce myself.</h1>

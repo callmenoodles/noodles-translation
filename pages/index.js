@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Header from './components/Header'
 import Home from './components/Home'
 import About from './components/About'
+import Why from './components/Why'
+import Services from './components/Services'
 import Footer from './components/Footer'
 
 const Index = () => {
@@ -13,6 +15,8 @@ const Index = () => {
       </div>
       <Home/>
       <About/>
+      <Why/>
+      <Services/>
       <div className='flex justify-center'>
         <Footer/>
       </div>
