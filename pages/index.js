@@ -1,10 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Header from './components/Header'
-import Home from './components/Home'
-import About from './components/About'
-import Why from './components/Why'
-import Services from './components/Services'
+import Home from './components/home/Home'
+import About from './components/home/About'
+import Why from './components/home/Why'
+import Services from './components/home/Services'
+import Contact from './components/home/Contact'
 import Footer from './components/Footer'
 
 const Index = () => {
@@ -17,6 +18,7 @@ const Index = () => {
       <About/>
       <Why/>
       <Services/>
+      <Contact/>
       <div className='flex justify-center'>
         <Footer/>
       </div>
