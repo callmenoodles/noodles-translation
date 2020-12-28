@@ -1,17 +1,21 @@
 import Link from 'next/link'
+import { useRouter } from 'next/router'
 import Dropdown from 'rc-dropdown'
-import Menu, {Item as MenuItem} from 'rc-menu'
+import Menu, { Item as MenuItem } from 'rc-menu'
 import 'rc-dropdown/assets/index.css'
 
 const Navbar = () => {
-  const onSelect = ({key}) => console.log(`Key ${key}`)
-  const onVisibleChange = (visible) => {};
+  const router = useRouter()
+  
+  const onSelect = ({key}) => {
+    router.push(`/services/${key}`)
+  }
 
   const menu = (
     <Menu onSelect={onSelect}>
-      <MenuItem key='1'>Translation</MenuItem>
-      <MenuItem key='2'>Proofreading</MenuItem>
-      <MenuItem key='3'>Transcription</MenuItem>
+      <MenuItem key='translation'>Translation</MenuItem>
+      <MenuItem key='proofreading'>Proofreading</MenuItem>
+      <MenuItem key='transcription'>Transcription</MenuItem>
     </Menu>
   )
 
@@ -23,10 +27,7 @@ const Navbar = () => {
         <Dropdown
           trigger={['hover']}
           overlay={menu}
-          animation='slide-up'
-          onVisibleChange={onVisibleChange}
-          className='m-4'
-        >
+          className='m-4'>
           <button>Services</button>
         </Dropdown>
         <Link href='/about'><a><li className='m-4'>About</li></a></Link>

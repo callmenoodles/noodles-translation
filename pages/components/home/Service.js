@@ -5,8 +5,6 @@ const Service = (props) => {
     scaleProperty = 'transform scale-110 '
   }
 
-  console.log('Scale property: ' + scaleProperty)
-
   return(
     <div className={scaleProperty + 'relative shadow-sm rounded-lg border-2 w-72 h-96 mr-4 ml-4 flex flex-col box-content items-center'}>
       <div className='flex flex-col flex-wrap justify-center items-center w-full'>

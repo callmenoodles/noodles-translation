@@ -2,7 +2,7 @@ const About = () => {
   return(
     <div className='flex flex-row justify-center items-center mb-64'>
       <img src='/hello.png' className='w-1/3 mr-12'/>
-      <div className='w-2/5'>
+      <div className='sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-144 2xl:w-144'>
         <h1 className='text-3xl font-bold mt-12 text-indigo-600'>Let me introduce myself.</h1>
         <p className='mt-4 text-lg'>
           My name is Alex Lushiku and I am a native Dutch speaker and an expert in the English language. A lot of the work I do is done in English. This includes but is not limited to writing, general conversation and projects. Moreover, I have a Cambridge Advanced English (CAE) certificate to prove these skills.
