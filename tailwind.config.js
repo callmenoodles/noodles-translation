@@ -9,7 +9,7 @@ module.exports = {
         '144': '36rem',
       },
       colors: {
-        'primary': '#00FF00',
+        'primary': '#10B981',
       },
       textColor: {
         'primary': '#10B981',

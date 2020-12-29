@@ -7,9 +7,9 @@ const About = () => {
       <div className='flex justify-center'>
         <Header/>
       </div>
-      <div className='flex flex-row justify-center items-start h-screen'>        
-        <div className='sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-144 2xl:w-144 mt-16'>
-          <h1 className='text-3xl font-bold mt-12 text-primary-00'>What is Noodles?</h1>
+      <div className='flex flex-row justify-center items-start' style={{'min-height':'calc(100vh - 64px'}}>        
+        <div className='sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-144 2xl:w-144 mt-28'>
+          <h1 className='text-3xl font-bold mt-12 text-primary'>What is Noodles?</h1>
           <p className='mt-4 text-lg'>
             My name is Alex Lushiku and I am a native Dutch speaker and an expert in the English language. A lot of the work I do is done in English. This includes but is not limited to writing, general conversation and projects. Moreover, I have a Cambridge Advanced English (CAE) certificate to prove these skills.
             <br></br><br></br>
@@ -18,9 +18,11 @@ const About = () => {
             Don't hesitate and shoot me a message if you need a quick and accurate Dutch translator!
           </p>
         </div>
-        <img src='/hello.png' className='h-96 mt-24 mr-12'/>
+        <img src='/hello.svg' className='h-96 mt-40 ml-24 mr-12 w-96'/>
       </div>
-      <Footer/>
+      <div className='flex justify-center'>
+        <Footer/>
+      </div>
     </div>
   )
 }

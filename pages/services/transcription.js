@@ -5,7 +5,7 @@ const Transcription = () => {
   return(
     <div className='flex flex-col items-center'>
       <Header/>
-      <div className='h-screen'>
+      <div  style={{'min-height':'calc(100vh - 64px'}}>
         <h1>Transcription</h1>
       </div>
       <Footer/>

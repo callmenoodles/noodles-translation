@@ -4,8 +4,11 @@ const options = ['Translation', 'Proofreading', 'Transcription']
 
 const Header = () => {
   return(
-    <div className='border-b w-11/12 h-20 flex flex-row justify-around items-center'>
-      <h1 className='text-2xl font-semibold text-indigo-500'>Noodles</h1>
+    <div className='absolute border-b w-11/12 h-20 flex flex-row justify-around items-center'>
+      <div className='flex flex-row items-center'>
+        <img src='/noodles.png' className='mr-2 mt-1' style={{'max-height':'25px'}}/>
+        <h1 className='text-2xl font-semibold'>noodles</h1>
+      </div>
       <Navbar />
     </div>
   )
