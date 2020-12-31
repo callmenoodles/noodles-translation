@@ -4,7 +4,7 @@ const Why = () => {
       <div className='sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-144 2xl:w-144'>
         <h1 className='text-3xl font-bold mt-12 text-primary'>Why translate?</h1>
         <p className='mt-4 text-lg'>
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        English is the most common language in today’s world. However, this does not mean you should overlook potential customers or clients who do not speak English (well)!  Moreover, people generally prefer their first language and multinationals are growing in different countries where English is not the dominant language. Making sure everyone understands your business by <span className='text-primary font-semibold'>translating to different languages will lead to more success!</span>
         </p>
       </div>
       <img src='/question.svg' className='w-1/4 ml-12'/>

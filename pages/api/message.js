@@ -14,14 +14,13 @@ const send = async (name, email, topic, message) => {
 
   await transporter.sendMail({
     from: `${name} <${email}>`,
-    to: "anxlus@tuta.io",
+    to: process.env.EMAIL_USER,
     subject: topic,
     text: message,
     html: `<b>${message}</b>`,
   });
 }
 
-// DO NOT PUSH TO GITHUB
 const handler = async (req, res) => {
   if (req.method == 'POST') {
     res.statusCode = 200
