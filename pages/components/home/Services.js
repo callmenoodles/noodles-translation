@@ -3,8 +3,8 @@ import Service from './Service'
 const Services = () => {
   return(
     <div className='flex flex-col justify-center items-center mb-64'>
-      <h1 className='text-3xl font-bold mt-12 text-primary mb-12'>Services</h1>
-      <div className='flex flex-row justify-center'>
+      <h1 className='text-3xl font-bold mt-12 text-primary mb-8'>Services</h1>
+      <div className='flex smaller:flex-col lg:flex-row justify-center'>
         <Service 
           title='Transcription' 
           description='I will transcribe any audio file from English to Dutch or from Dutch to English with options for clean verbatim or non-verbatim transcription.'

@@ -14,6 +14,11 @@ module.exports = {
       textColor: {
         'primary': '#10B981',
       },
+      screens: {
+        'smaller': {'max':'1024px'},
+        'maxsm': {'max':'640px'},
+        'maxmd': {'max':'768px'}
+      }
     },
   },
   variants: {

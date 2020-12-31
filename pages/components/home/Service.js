@@ -8,7 +8,7 @@ const Service = (props) => {
   }
 
   return(
-    <div className={featuredProperties + 'relative shadow-sm rounded-lg border-2 w-72 h-96 mr-4 ml-4 flex flex-col box-content items-center'}>
+    <div className={featuredProperties + 'relative shadow-sm rounded-lg border-2 w-72 h-96 m-5 flex flex-col box-content items-center'}>
       <div className='flex flex-col flex-wrap justify-center items-center w-full'>
         <h1 className='mt-4 font-semibold text-2xl text-center'>{props.title}</h1>
         <h3 className='text-center'>&euro;{props.price} per {props.unit}</h3>

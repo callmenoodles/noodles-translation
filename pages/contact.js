@@ -1,13 +1,24 @@
+import Head from 'next/head'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
 const Contact = () => {
   return(
     <div className='flex flex-col items-center'>
+      <Head>
+        <title>Contact - Noodles Translation</title>
+        <meta charSet='utf-8'></meta>
+        <meta name='description' content='Send me a message if you need translation, transcription or proofreading. Feel free to ask any questions.'></meta>
+        <meta 
+          name='keywords' 
+          content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
+        <meta name='author' content='Noodles'></meta>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header/>
-      <div className='flex flex-col items-center justify-center mb-24' style={{'min-height':'calc(100vh - 64px - 6rem)'}}>
-        <div className='flex flex-col w-144 pt-16'>
-          <h1 className='text-3xl font-semibold'>Contact</h1>
+      <div className='flex flex-col items-center justify-center mb-24' style={{'minHeight':'calc(100vh - 64px - 6rem)'}}>
+        <div className='flex flex-col w-144'>
+          <h1 className='text-3xl font-semibold mt-32'>Contact</h1>
           <h3 className='mb-8 mt-2'>Send me a message if you need English to Dutch or Dutch to English translation, transcription or proofreading or if you have a question.</h3>
           <form action='/api/message' method='post'>
             <div className='flex flex-col mb-4'>

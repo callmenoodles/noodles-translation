@@ -1,12 +1,39 @@
+import Head from 'next/head'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
 const Proofreading = () => {
   return(
     <div className='flex flex-col items-center'>
+      <Head>
+        <title>Proofreading - Noodles Translation</title>
+        <meta charSet='utf-8'></meta>
+        <meta name='description' content='Proofreading is the process of reviewing content for errors in spelling, grammar, punctuation, and structure.'></meta>
+        <meta 
+          name='keywords' 
+          content='Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, English Proofreading, Proofreader'></meta>
+        <meta name='author' content='Noodles'></meta>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <Header/>
-      <div style={{'min-height':'calc(100vh - 64px'}}>
-        <h1>Proofreadingf</h1>
+      
+      <div className='flex flex-col pt-32 mb-32' style={{'minHeight':'calc(100vh - 64px'}}>
+        <h1 className='text-3xl font-bold text-primary mt-4'>What is proofreading?</h1>
+        <p className='text-lg mt-2'>
+          Proofreading is the process of reviewing content for errors in spelling, grammar, punctuation, and structure. Incorrect spelling looks unprofessional and will hurt your brand, but proofreading also ensures the correct message is conveyed. This involves not correcting word for word but actively reading context to make sure the structure is correct.
+        </p>
+        <img 
+          src='/proofreading.svg'
+          alt='proofreading'
+          className='transform scale-75'/>
+        <h1 className='text-3xl font-bold text-primary mt-12'>Why is proofreading important?</h1>
+        <p className='text-lg mt-2'>
+          It is important that your content is accurately translated to the target language. As stated earlier, spelling or grammar mistakes look unprofessional and will distract your readers. You want your readers to remember the content, not its mistakes. Some people decide to skip proofreading but if you produce a lot of content, this will indefinitely result in mistakes sooner or later.
+        </p>
+        <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles?</h1>
+        <p className='text-lg mt-2'>
+          I am a native Dutch speaker. This is very important for understanding informal language such as slang and spoken language, which a non-native will likely not grasp. Furthermore, I do a lot of work in English making me qualified for understanding English idioms and informal language too.
+        </p>
       </div>
       <Footer/>
     </div>

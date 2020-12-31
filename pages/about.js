@@ -1,24 +1,50 @@
+import Link from 'next/link'
+import Head from 'next/head'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
 const About = () => {
   return(
     <div className='flex flex-col'>
+      <Head>
+        <title>About - Noodles Translation</title>
+        <meta charSet='utf-8'></meta>
+        <meta name='description' content='Noodles is a brand which stands for helping businesses with their online presence.'></meta>
+        <meta 
+          name='keywords' 
+          content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription, Computer Science, Student'></meta>
+        <meta name='author' content='Noodles'></meta>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className='flex justify-center'>
         <Header/>
       </div>
-      <div className='flex flex-row justify-center items-start' style={{'min-height':'calc(100vh - 64px'}}>        
-        <div className='sm:w-2/5 md:w-2/5 lg:w-2/5 xl:w-144 2xl:w-144 mt-28'>
-          <h1 className='text-3xl font-bold mt-12 text-primary'>What is Noodles?</h1>
-          <p className='mt-4 text-lg'>
-            My name is Alex Lushiku and I am a native Dutch speaker and an expert in the English language. A lot of the work I do is done in English. This includes but is not limited to writing, general conversation and projects. Moreover, I have a Cambridge Advanced English (CAE) certificate to prove these skills.
-            <br></br><br></br>
-            I work quickly but I make sure I do my work correctly when translating from both English to Dutch or from Dutch to English. I do general translations and because of my technical background as a developer I will do technical, website and app translations as well.
-            <br></br><br></br>
-            Don't hesitate and shoot me a message if you need a quick and accurate Dutch translator!
-          </p>
+      
+      <div className='flex flex-col justify-center mb-24 items-start' style={{'minHeight':'calc(100vh - 64px'}}>   
+        <div className='flex flex-row justify-center items-center w-full'>     
+          <div className='maxmd:w-4/5 md:w-144 mt-28'>
+            <h1 className='text-3xl font-bold mt-12 text-primary'>What is Noodles?</h1>
+            <p className='mt-4 text-lg'>
+              Noodles is a brand which stands for helping businesses with their online presence. Technology is becoming more and more ubiquitous, so your business simply cannot stay behind. The total amount of active internet users has surpassed half the world population and these users consist of people from different countries who may or may not speak English well enough to understand your business. I will help you with your online presence with a great website and accurate English and Dutch translation.
+            </p>
+          </div>
         </div>
-        <img src='/hello.svg' className='h-96 mt-40 ml-24 mr-12 w-96'/>
+        <div className='flex flex-row justify-center items-center w-full'>
+          <img src='/website.svg' alt='website' className='maxsm:h-80 maxsm:w-80 sm:h-96 sm:w-96'/>
+        </div>
+        <div className='flex flex-row justify-center items-center w-full'>
+          <div className='maxmd:w-4/5 md:w-144'>
+            <h1 className='text-3xl font-bold mt-12 text-primary'>Who is behind Noodles?</h1>
+            <p className='mt-4 text-lg'>
+              My name is Alex Lushiku, and I am a Dutch computer science student. The software industry is dominated by the English language as well as many other industries. Therefore, English is my preferred language for nearly all tasks. I perfected my English skills by following the Cambridge Advanced: English course from which I have graduated so I can help people like you.
+              <br></br><br></br>
+              Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link href='https://alexlushiku.com/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
+            </p>
+          </div>
+        </div>
+        <div className='flex flex-row justify-center items-center w-full'>
+          <img src='/programming.svg' alt='programming' className='maxsm:h-80 maxsm:w-80 sm:h-96 sm:w-96'/>
+        </div>
       </div>
       <div className='flex justify-center'>
         <Footer/>
