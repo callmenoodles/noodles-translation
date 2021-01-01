@@ -2,6 +2,7 @@ import Link from 'next/link'
 
 const Service = (props) => {
   var featuredProperties = ''
+  if (props.title === undefined) props.title = ''
   
   if (props.featured) {
     featuredProperties = 'transform scale-110 border-primary '
