@@ -7,6 +7,7 @@ const Proofreading = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>Proofreading - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='Proofreading is the process of reviewing content for errors in spelling, grammar, punctuation, and structure.'></meta>
         <meta 

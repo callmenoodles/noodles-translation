@@ -9,6 +9,7 @@ const Message = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>404 Page Not Found - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta name='robots' content='noindex'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>

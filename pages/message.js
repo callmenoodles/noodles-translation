@@ -9,6 +9,7 @@ const Message = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>Message Confirmation - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='robots' content='noindex'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />

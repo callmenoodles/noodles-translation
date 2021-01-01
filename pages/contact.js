@@ -7,6 +7,7 @@ const Contact = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>Contact - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='Send me a message if you need translation, transcription or proofreading. Feel free to ask any questions.'></meta>
         <meta 

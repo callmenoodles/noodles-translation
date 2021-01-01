@@ -8,6 +8,7 @@ const Transcription = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>Transcription - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='Transcription is the process of making a written copy from other representations of language.'></meta>
         <meta 

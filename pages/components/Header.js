@@ -8,7 +8,7 @@ const Header = () => {
     <div className='absolute border-b w-11/12 h-20 flex flex-row justify-around items-center'>
       <Link href='/'>
         <div className='flex flex-row items-center cursor-pointer'>
-          <img src='/noodles.png' alt='noodles logo' className='mr-3 mt-1' style={{'maxHeight':'25px'}}/>
+          <img src='/transnoodles.png' alt='noodles logo' className='mr-3 mt-1' style={{'maxHeight':'32px'}}/>
           <h1 className='text-2xl font-semibold'>Noodles</h1>
         </div>
       </Link>

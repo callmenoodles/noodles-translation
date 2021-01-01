@@ -7,6 +7,7 @@ const Translation = () => {
     <div className='flex flex-col items-center'>
       <Head>
         <title>Translation - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='There are many types of translation but here is a brief overview of the services I provide'></meta>
         <meta 

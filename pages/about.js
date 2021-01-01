@@ -8,6 +8,7 @@ const About = () => {
     <div className='flex flex-col'>
       <Head>
         <title>About - Noodles Translation</title>
+        <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='Noodles is a brand which stands for helping businesses with their online presence.'></meta>
         <meta 
