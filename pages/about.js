@@ -30,8 +30,8 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-row justify-center items-center w-full'>
-          <img src='/website.svg' alt='website' className='maxsm:h-80 maxsm:w-80 sm:h-96 sm:w-96'/>
+        <div className='flex flex-row justify-center items-center w-full my-8'>
+          <img src='/website.svg' alt='website' className='maxsm:w-80 sm:w-96'/>
         </div>
         <div className='flex flex-row justify-center items-center w-full'>
           <div className='maxmd:w-4/5 md:w-144'>
@@ -43,8 +43,8 @@ const About = () => {
             </p>
           </div>
         </div>
-        <div className='flex flex-row justify-center items-center w-full'>
-          <img src='/programming.svg' alt='programming' className='maxsm:h-80 maxsm:w-80 sm:h-96 sm:w-96'/>
+        <div className='flex flex-row justify-center items-center w-full my-12'>
+          <img src='/programming.svg' alt='programming' className='maxsm:w-80 sm:w-96'/>
         </div>
       </div>
       <div className='flex justify-center'>
