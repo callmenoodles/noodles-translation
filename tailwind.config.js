@@ -1,4 +1,5 @@
 const colors = require('tailwindcss/colors')
+const hamburgers = require('tailwind-hamburgers')
 
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
@@ -24,5 +25,7 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [
+    hamburgers,
+  ],
 }
