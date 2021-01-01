@@ -17,7 +17,7 @@ const Proofreading = () => {
       </Head>
       <Header/>
       
-      <div className='flex flex-col pt-32 mb-32' style={{'minHeight':'calc(100vh - 64px'}}>
+      <div className='flex flex-col pt-32 mb-32 maxmd:w-4/5 md:w-144' style={{'minHeight':'calc(100vh - 64px'}}>
         <h1 className='text-3xl font-bold text-primary mt-4'>What is proofreading?</h1>
         <p className='text-lg mt-2'>
           Proofreading is the process of reviewing content for errors in spelling, grammar, punctuation, and structure. Incorrect spelling looks unprofessional and will hurt your brand, but proofreading also ensures the correct message is conveyed. This involves not correcting word for word but actively reading context to make sure the structure is correct.

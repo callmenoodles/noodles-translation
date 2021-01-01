@@ -17,7 +17,7 @@ const Transcription = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header/>
-      <div className='flex flex-col w-144 pt-32 mb-32' style={{'minHeight':'calc(100vh - 64px'}}>
+      <div className='flex flex-col w-144 pt-32 mb-32 maxmd:w-4/5 md:w-144' style={{'minHeight':'calc(100vh - 64px'}}>
         <h1 className='text-3xl font-bold text-primary mt-4'>What is transcription?</h1>
         <p className='text-lg mt-2'>
           Transcription is the process of making a written copy from other representations of language. It usually means converting speech to text, but it can also be applied to sign language for instance. Take note that transcribed text is in the same language as the source language.

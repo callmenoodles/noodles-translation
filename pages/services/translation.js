@@ -16,7 +16,8 @@ const Translation = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Header/>
-      <div className='flex flex-col w-144 pt-20 mb-32' style={{'minHeight':'calc(100vh - 64px'}}>
+
+      <div className='flex flex-col w-144 pt-20 mb-32 maxmd:w-4/5 md:w-144' style={{'minHeight':'calc(100vh - 64px'}}>
         <h1 className='text-3xl font-bold mt-12 text-primary'>Translation</h1>
         <p className='text-lg'>There are many types of translation but here is a brief overview of the services I provide:</p>
         <img 

@@ -14,7 +14,7 @@ const Message = () => {
       </Head>
       <Header/>
       <div className='flex flex-col justify-center items-center' style={{'minHeight':'calc(100vh - 64px'}}>
-        <img src='/empty.svg' className='w-80' alt='not found'/>
+        <img src='/empty.svg' className='maxsm:w-64 sm:w-80' alt='not found'/>
         <h1 className='text-2xl font-semibold mt-4'>Nothing here.</h1>
         <h3 className='mt-1 text-lg'>Want some <Link href='/'><u className='text-primary font-semibold cursor-pointer'>noodles</u></Link>?</h3>
       </div>

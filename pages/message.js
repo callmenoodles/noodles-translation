@@ -15,8 +15,8 @@ const Message = () => {
       </Head>
       <Header/>
       <div className='flex flex-col justify-center items-center' style={{'minHeight':'calc(100vh - 64px'}}>
-        <img src='message.svg' alt='message sent' className='w-80' />
-        <h1 className='text-2xl font-semibold mt-4'>Message sent! I will get back to you soon.</h1>
+        <img src='message.svg' alt='message sent' className='maxsm:w-48 sm:w-64' />
+        <h1 className='text-2xl font-semibold mt-4 maxsm:w-4/5 text-center'>Message sent! I will get back to you soon.</h1>
         <h3 className='mt-1 text-lg'><Link href='/'><u className='text-primary font-semibold cursor-pointer'>Go back.</u></Link></h3>
       </div>
       <Footer/>
