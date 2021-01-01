@@ -1,6 +1,5 @@
 import Header from '../components/Header'
 import Footer from '../components/Footer'
-import Image from ''
 import Head from 'next/head'
 
 const Transcription = () => {
