@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isActive, setIsActive] = useState(false)
 
   let burgerMenu = (
-    <div className={`fixed top-0 left-0 w-screen h-screen bg-white transition-opacity duration-450 lg:hidden ${isActive ? 'opacity-95 z-10':'opacity-0 z-0'}`}>
+    <div className={`fixed top-0 left-0 w-screen h-screen bg-white transition-opacity duration-450 lg:hidden ${isActive ? 'opacity-95 z-10':'opacity-0 hidden z-0'}`}>
       <ul className='flex flex-col h-full justify-center items-center'>
         <Link href='/'><a><li className='p-4 duration-200 hover:text-primary' style={{'fontSize':'1.2rem'}}>Home</li></a></Link>
         <Link href='/services/translation'><a><li className='p-4 duration-200 hover:text-primary' style={{'fontSize':'1.2rem'}}>Translation</li></a></Link>
@@ -52,8 +52,7 @@ const Navbar = () => {
       
       <div className='lg:hidden smaller:z-50'>
         <div className={`tham tham-e-squeeze tham-w-6 z-50 ${isActive? 'tham-active relative':''}`}
-        onMouseDown={handleClick}
-        onTouchStart={handleClick}>
+        onMouseDown={handleClick}>
           <div className='tham-box'>
             <div className='tham-inner'></div>
           </div>
