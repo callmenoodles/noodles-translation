@@ -16,6 +16,13 @@ const About = () => {
           content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription, Computer Science, Student'></meta>
         <meta name='author' content='Noodles'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta property="og:title" content="About" />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://translation.alexlushiku.com/about" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="What is Noodles?" />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <div className='flex justify-center'>
         <Header/>

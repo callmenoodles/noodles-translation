@@ -15,6 +15,13 @@ const Transcription = () => {
           content='Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Transcription, English Transcription, Dutch Transcription, Transcribe'></meta>
         <meta name='author' content='Noodles'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta property="og:title" content="Native Dutch and English Transcription Service" />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://translation.alexlushiku.com/services/transcription" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="I will transcribe Dutch and English audio." />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <Header/>
       <div className='flex flex-col w-144 pt-32 mb-32 maxmd:w-4/5 md:w-144' style={{'minHeight':'calc(100vh - 64px'}}>

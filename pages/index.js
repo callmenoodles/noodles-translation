@@ -14,12 +14,19 @@ const Index = () => {
         <title>Home - Noodles Translation - Native Dutch Translation</title>        
         <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
-        <meta name='description' content='Do you have content which need to be translated from English to Dutch or from Dutch to English or do you need transcription or proofreading?'></meta>
+        <meta name='description' content='Do you have content which need to be translated from English to Dutch or from Dutch to English or do you need transcription or proofreading services?'></meta>
         <meta 
           name='keywords' 
           content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
         <meta name='author' content='Noodles'></meta>
         <meta name='viewport' content='initial-scale=1.0, width=device-width'></meta>
+
+        <meta property="og:title" content="Native Dutch and English Translation" />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://translation.alexlushiku.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="Do you have content which need to be translated from English to Dutch or from Dutch to English or do you need transcription or proofreading services?" />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <div className='flex justify-center'>
         <Header/>

@@ -15,6 +15,13 @@ const Contact = () => {
           content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
         <meta name='author' content='Noodles'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta property="og:title" content="Contact" />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://translation.alexlushiku.com/contact" />
+        <meta property="og:type" content="contact" />
+        <meta property="og:description" content="Feel free to contact me. I will get back to you as soon as possible." />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <Header/>
       <div className='flex flex-col items-center justify-center mb-24' style={{'minHeight':'calc(100vh - 64px - 6rem)'}}>

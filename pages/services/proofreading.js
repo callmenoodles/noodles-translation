@@ -15,6 +15,13 @@ const Proofreading = () => {
           content='Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, English Proofreading, Proofreader'></meta>
         <meta name='author' content='Noodles'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+
+        <meta property="og:title" content="Native Dutch and English Proofreading Service" />
+        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:url" content="https://translation.alexlushiku.com/services/proofreading" />
+        <meta property="og:type" content="website" />
+        <meta property="og:description" content="I will proofread Dutch and English content." />
+        <meta property="og:locale" content="en_US" />
       </Head>
       <Header/>
       
