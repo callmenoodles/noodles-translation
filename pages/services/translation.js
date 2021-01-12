@@ -17,7 +17,7 @@ const Translation = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Native Dutch and English Translation" />
-        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:image" content="https://api.alexlushiku.com/uploads/noodles_3d5b06bcb9.jpeg" />
         <meta property="og:url" content="https://translation.alexlushiku.com/services/translation" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="I will translate anything from English to Dutch or vice versa" />

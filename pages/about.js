@@ -18,7 +18,7 @@ const About = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="About" />
-        <meta property="og:image" content="/og-image.jpg" />
+        <meta property="og:image" content="https://api.alexlushiku.com/uploads/noodles_3d5b06bcb9.jpeg" />
         <meta property="og:url" content="https://translation.alexlushiku.com/about" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="What is Noodles?" />
