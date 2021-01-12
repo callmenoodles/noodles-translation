@@ -22,7 +22,7 @@ const Index = () => {
         <meta name='viewport' content='initial-scale=1.0, width=device-width'></meta>
 
         <meta property="og:title" content="Native Dutch and English Translation" />
-        <meta property="og:image" content="https://api.alexlushiku.com/uploads/noodles_3d5b06bcb9.jpeg" />
+        <meta property="og:image" content="https://i.postimg.cc/C5PRKRMh/Noodles-Translation.jpg" />
         <meta property="og:url" content="https://translation.alexlushiku.com/" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="Accurate English and Dutch translation, transcription, and proofreading." />

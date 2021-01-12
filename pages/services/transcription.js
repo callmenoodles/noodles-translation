@@ -17,7 +17,7 @@ const Transcription = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Native Dutch and English Transcription Service" />
-        <meta property="og:image" content="https://api.alexlushiku.com/uploads/noodles_3d5b06bcb9.jpeg" />
+        <meta property="og:image" content="https://i.postimg.cc/C5PRKRMh/Noodles-Translation.jpg" />
         <meta property="og:url" content="https://translation.alexlushiku.com/services/transcription" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="I will transcribe Dutch and English audio." />

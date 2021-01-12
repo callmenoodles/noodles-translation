@@ -17,7 +17,7 @@ const Contact = () => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Contact" />
-        <meta property="og:image" content="https://api.alexlushiku.com/uploads/noodles_3d5b06bcb9.jpeg" />
+        <meta property="og:image" content="https://i.postimg.cc/C5PRKRMh/Noodles-Translation.jpg" />
         <meta property="og:url" content="https://translation.alexlushiku.com/contact" />
         <meta property="og:type" content="contact" />
         <meta property="og:description" content="Feel free to contact me. I will get back to you as soon as possible." />
