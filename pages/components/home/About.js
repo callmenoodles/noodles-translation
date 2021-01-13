@@ -5,7 +5,7 @@ const About = () => {
       <div className='smaller:w-4/5 lg:w-2/5 xl:w-144 2xl:w-144'>
         <h1 className='text-3xl font-bold mt-12 text-primary'>Let me introduce myself.</h1>
         <p className='mt-4 text-lg break-word'>
-          My name is Alex Lushiku and I am a <span className='text-primary font-semibold'>native Dutch</span> speaker and an expert in the English language. I work a lot with both languages. This includes but is not limited to writing, <span className='text-primary font-semibold'>translation, transcription, proofreading</span> and personal projects. Moreover, I own a Cambridge Advanced: English (CAE) certificate to prove these skills.
+          My name is Alex Lushiku and I am a <span className='text-primary font-semibold'>native Dutch</span> speaker and an expert in the English language. I work a lot with both languages. This includes but is not limited to writing, <span className='text-primary font-semibold'>translation, transcription, proofreading</span> and personal projects. Moreover, I own a Cambridge English: Advanced (CAE) certificate to prove these skills.
           <br></br><br></br>
           I work quickly but I make sure I do my work correctly when translating from both <span className='text-primary font-semibold'>English to Dutch </span>or from 
           <span className='text-primary font-semibold'> Dutch to English</span>. 

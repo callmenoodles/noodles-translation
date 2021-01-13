@@ -6,7 +6,7 @@ const Home = () => {
       <div className='relative lg:bottom-20 smaller:bottom-10 maxmd:w-4/5 md:mr-4'>
         <h1 className='text-4xl font-bold mb-4 leading-snug'>Accurate English and Native <br className='maxmd:hidden'></br>Dutch Translation</h1>
         <p className='mb-6'>
-          Do you have documents, files, or any other text which need<br className='maxmd:hidden'></br>to be translated from English to Dutch or from<br className='maxmd:hidden'></br>Dutch to English?</p>
+          I will translate, transcribe and proofread any file in correct <br className='maxmd:hidden'></br>English and Dutch.</p>
         <Link href='/contact'>
           <div className='w-48 h-12 bg-primary rounded-full cursor-pointer flex justify-center items-center text-xl text-white'>
             Contact Me
