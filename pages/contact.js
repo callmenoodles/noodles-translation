@@ -27,7 +27,7 @@ const Contact = () => {
       <div className='flex flex-col items-center justify-center mb-24' style={{'minHeight':'calc(100vh - 64px - 6rem)'}}>
         <div className='flex flex-col maxmd:w-4/5 md:w-144'>
           <h1 className='text-3xl font-semibold mt-32'>Contact</h1>
-          <h3 className='mb-8 mt-2'>Send me a message if you need English to Dutch or Dutch to English translation, transcription or proofreading or if you have a question.</h3>
+          <h3 className='mb-8 mt-2'>Send me a message if you need English to Dutch or Dutch to English translation, transcription, or proofreading, or if you have a question.</h3>
           <form action='/api/message' method='post'>
             <div className='flex flex-col mb-4'>
               <label className='font-semibold mb-2'>Name</label>

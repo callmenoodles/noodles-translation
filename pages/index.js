@@ -11,7 +11,7 @@ const Index = () => {
   return(
     <div className='h-screen'>
       <Head>
-        <title>Home - Noodles Translation - Native Dutch Translation</title>        
+        <title>Home - Noodles Translation - English and Native Dutch Translation</title>        
         <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
         <meta name='description' content='Accurate English and Dutch translation, transcription, and proofreading.'></meta>

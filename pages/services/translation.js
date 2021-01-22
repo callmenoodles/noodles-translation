@@ -34,7 +34,7 @@ const Translation = () => {
           className='transform scale-75'/>
         <h3 className='text-2xl font-semibold text-primary mt-4'>General translation</h3>
         <p>
-          As the name suggests, general translation covers all types of translation such as words, sentences, documents, or paragraphs. Choose this if your content does not fit in the following categories.
+          As the name suggests, general translation covers all types of translation such as words, sentences, documents, or paragraphs. Pick this option if your content does not fit in one the following categories:
         </p>
         <h3 className='text-2xl font-semibold text-primary mt-4'>Technical translation</h3>
         <p>

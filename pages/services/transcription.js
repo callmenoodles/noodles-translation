@@ -41,7 +41,7 @@ const Transcription = () => {
 
         <h2 className='text-2xl font-semibold mt-4'>Non-verbatim transcription</h2>
         <p className='text-lg mt-2'>
-          Non-verbatim or clean transcription is a transcription method meant for professional use. It removes the details mentioned above including curse words to make the transcription user-friendly.
+          Non-verbatim or clean transcription is a transcription method meant for professional use. It removes the details mentioned above, including curse words, to make the transcription user-friendly.
         </p>
         <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles?</h1>
         <p className='text-lg mt-2'>
