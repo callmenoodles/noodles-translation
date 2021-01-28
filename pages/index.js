@@ -14,11 +14,11 @@ const Index = () => {
         <title>Home - Noodles Translation - English and Native Dutch Translation</title>        
         <link rel='shortcut icon' href='/icons/favicon.ico' />
         <meta charSet='utf-8'></meta>
-        <meta name='description' content='Accurate English and Dutch translation, transcription, and proofreading.'></meta>
+        <meta name='description' content='Noodles Translation provides accurate English and Dutch translation, transcription, and proofreading.'></meta>
         <meta 
           name='keywords' 
-          content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
-        <meta name='author' content='Noodles'></meta>
+          content='Noodles, Translation, Noodles Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
+        <meta name='author' content='Noodles Translation'></meta>
         <meta name='viewport' content='initial-scale=1.0, width=device-width'></meta>
 
         <meta property="og:title" content="Native Dutch and English Translation" />

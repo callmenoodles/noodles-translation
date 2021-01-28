@@ -12,8 +12,8 @@ const Transcription = () => {
         <meta name='description' content='Transcription is the process of making a written copy from other representations of language.'></meta>
         <meta 
           name='keywords' 
-          content='Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Transcription, English Transcription, Dutch Transcription, Transcribe'></meta>
-        <meta name='author' content='Noodles'></meta>
+          content='Noodles, Translation, Noodles Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
+        <meta name='author' content='Noodles Translation'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Native Dutch and English Transcription Service" />
@@ -43,7 +43,7 @@ const Transcription = () => {
         <p className='text-lg mt-2'>
           Non-verbatim or clean transcription is a transcription method meant for professional use. It removes the details mentioned above, including curse words, to make the transcription user-friendly.
         </p>
-        <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles?</h1>
+        <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles Translation?</h1>
         <p className='text-lg mt-2'>
           I am a native Dutch speaker. This is very important for understanding informal language such as slang and spoken language, which a non-native will likely not grasp. Furthermore, I do a lot of work in English making me qualified for understanding English idioms and informal language too.
         </p>

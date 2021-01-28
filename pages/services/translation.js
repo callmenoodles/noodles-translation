@@ -12,8 +12,8 @@ const Translation = () => {
         <meta name='description' content='There are many types of translation but here is a brief overview of the services I provide'></meta>
         <meta 
           name='keywords' 
-          content='Noodles, Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Dutch Translator, English Translator'></meta>
-        <meta name='author' content='Noodles'></meta>
+          content='Noodles, Translation, Noodles Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
+        <meta name='author' content='Noodles Translation'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Native Dutch and English Translation" />

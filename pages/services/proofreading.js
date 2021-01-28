@@ -12,8 +12,8 @@ const Proofreading = () => {
         <meta name='description' content='Proofreading is the process of reviewing content for errors in spelling, grammar, punctuation, and structure.'></meta>
         <meta 
           name='keywords' 
-          content='Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, English Proofreading, Proofreader'></meta>
-        <meta name='author' content='Noodles'></meta>
+          content='Noodles, Translation, Noodles Translation, Translate Dutch to English, Translate English to Dutch, Translate Dutch, Translate English, Translate Noodles, Alex Lushiku, Lushiku, Noodles Design, Web Development, Web Design, Proofreading, Dutch Proofreading, Dutch Translator, English Translator, Transcription, Dutch Transcription'></meta>
+        <meta name='author' content='Noodles Translation'></meta>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 
         <meta property="og:title" content="Native Dutch and English Proofreading Service" />
@@ -38,7 +38,7 @@ const Proofreading = () => {
         <p className='text-lg mt-2'>
           It is important that your content is accurately translated to the target language. As stated earlier, spelling or grammar mistakes look unprofessional and will distract your readers. You want your readers to remember the content, not its mistakes. Some people decide to skip proofreading but if you produce a lot of content, this will indefinitely result in mistakes sooner or later.
         </p>
-        <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles?</h1>
+        <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles Translation?</h1>
         <p className='text-lg mt-2'>
           I am a native Dutch speaker. This is very important for understanding informal language such as slang and spoken language, which a non-native will likely not grasp. Furthermore, I do a lot of work in English making me qualified for understanding English idioms and informal language too.
         </p>
