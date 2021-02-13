@@ -18,7 +18,7 @@ const Proofreading = () => {
 
         <meta property="og:title" content="Native Dutch and English Proofreading Service" />
         <meta property="og:image" content="https://i.postimg.cc/C5PRKRMh/Noodles-Translation.jpg" />
-        <meta property="og:url" content="https://translation.alexlushiku.com/services/proofreading" />
+        <meta property="og:url" content="https://translation.noodles.services/services/proofreading" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="I will proofread Dutch and English content." />
         <meta property="og:locale" content="en_US" />

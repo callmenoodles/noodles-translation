@@ -19,7 +19,7 @@ const About = () => {
 
         <meta property="og:title" content="About" />
         <meta property="og:image" content="https://i.postimg.cc/C5PRKRMh/Noodles-Translation.jpg" />
-        <meta property="og:url" content="https://translation.alexlushiku.com/about" />
+        <meta property="og:url" content="https://translation.noodles.services/about" />
         <meta property="og:type" content="website" />
         <meta property="og:description" content="What is Noodles Translation?" />
         <meta property="og:locale" content="en_US" />
@@ -46,7 +46,7 @@ const About = () => {
             <p className='mt-4 text-lg'>
               My name is Alex Lushiku, and I am a Dutch computer science student. The software industry is dominated by the English language as well as many other industries. Therefore, English is my preferred language for nearly all tasks. I perfected my English skills by following the Cambridge English: Advanced (CAE) course from which I have graduated so I can help people like you.
               <br></br><br></br>
-              Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link href='https://alexlushiku.com/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
+              Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link href='https://noodles.services/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
             </p>
           </div>
         </div>
