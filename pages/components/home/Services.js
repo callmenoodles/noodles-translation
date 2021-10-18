@@ -8,13 +8,13 @@ const Services = () => {
         <Service 
           title='Transcription' 
           description='I will transcribe audio or speech from English to Dutch or from Dutch to English with options for clean verbatim or non-verbatim transcription.'
-          price='0.02'
+          price='0.025'
           unit='minute'
           featured={false}/>
         <Service
           title='Translation' 
           description='I provide general and technical translation from English to Dutch or from Dutch to English for documents, books, software, websites, apps, manuals and more!'
-          price='0.02'
+          price='0.025'
           unit='word'
           featured={true}/>
         <Service 
