@@ -27,7 +27,7 @@ const Transcription = () => {
       <div className='flex flex-col w-144 pt-32 mb-32 maxmd:w-4/5 md:w-144' style={{'minHeight':'calc(100vh - 64px'}}>
         <h1 className='text-3xl font-bold text-primary mt-4'>What is transcription?</h1>
         <p className='text-lg mt-2'>
-          Transcription is the process of making a written copy from other representations of language. It usually means converting speech to text, but it can also be applied to sign language for instance. Take note that transcribed text is in the same language as the source language.
+          Transcription is the process of making a written copy from other representations of language. It usually means converting speech to text, but it can also be applied to sign language for instance. Take note that transcribed text is usually written in the same language as the source language.
         </p>
         <img 
           src='/transcription.svg'
@@ -36,12 +36,12 @@ const Transcription = () => {
         <h1 className='text-3xl font-bold text-primary mt-12'>Types of transcription</h1>
         <h2 className='text-2xl font-semibold mt-4'>Verbatim transcription</h2>
         <p className='text-lg mt-2'>
-          Verbatim transciption is a transcription method where every detail is captured, including fillers, stutters, and even non-speech sounds like a ringing doorbell. This type of translation requires a lot of attention to detail and therefore takes more time to complete.
+          Verbatim transciption is a transcription method where every detail is captured, including fillers, stutters, and even non-speech such as a ringing doorbell. This type of translation requires a lot of attention to detail and therefore takes more time to complete.
         </p>
 
         <h2 className='text-2xl font-semibold mt-4'>Non-verbatim transcription</h2>
         <p className='text-lg mt-2'>
-          Non-verbatim or clean transcription is a transcription method meant for professional use. It removes the details mentioned above, including curse words, to make the transcription user-friendly.
+          Non-verbatim or clean transcription is a transcription method meant for professional use. It removes the details mentioned above, as well as curse words, to keep the transcription business friendly.
         </p>
         <h1 className='text-3xl font-bold text-primary mt-12'>Why Noodles Translation?</h1>
         <p className='text-lg mt-2'>

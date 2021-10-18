@@ -30,9 +30,10 @@ const handler = async (req, res) => {
     await send(data.name, data.email, data.topic, data.message)
   }
 
-  res.writeHead(302, { // or 301
+  res.writeHead(302, {
     Location: '/message',
   });
+
   res.end();
 }
 

@@ -20,7 +20,7 @@ const Services = () => {
         <Service 
           title='Proofreading' 
           description="Wrong translation will look unprofessional and might lead you to losing potential customers. I will proofread and correct any English or Dutch file to make sure it's professional."
-          price='0.01'
+          price='0.015'
           unit='word'
           featured={false}/>
       </div>

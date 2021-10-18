@@ -3,6 +3,8 @@ import Head from 'next/head'
 import Header from './components/Header'
 import Footer from './components/Footer'
 
+// TODO: Update portfolio site link
+
 const About = () => {
   return(
     <div className='flex flex-col'>
@@ -44,7 +46,7 @@ const About = () => {
           <div className='maxmd:w-4/5 md:w-144'>
             <h1 className='text-3xl font-bold mt-12 text-primary'>Who is behind Noodles Translation?</h1>
             <p className='mt-4 text-lg'>
-              My name is Alex Lushiku, and I am a Dutch computer science student. The software industry is dominated by the English language as well as many other industries. Therefore, English is my preferred language for nearly all tasks. I perfected my English skills by following the Cambridge English: Advanced (CAE) course from which I have graduated so I can help people like you.
+              I go by Noodles, and I am a Dutch computer science student. The software industry is dominated by the English language as well as many other industries. Therefore, English is my preferred language for nearly all tasks. I perfected my English skills by following the Cambridge English: Advanced (CAE) course from which I have graduated so I can help people like you.
               <br></br><br></br>
               Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link href='https://noodles.services/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
             </p>
