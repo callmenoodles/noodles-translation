@@ -20,7 +20,7 @@ const Navbar = () => {
       }`}
     >
       <ul className="flex flex-col h-full justify-center items-center">
-        <Link legacyBehavior href="/" legacyBehavior>
+        <Link legacyBehavior href="/">
           <a>
             <li
               className="p-4 duration-200 hover:text-primary"
