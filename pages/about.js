@@ -48,7 +48,7 @@ const About = () => {
             <p className='mt-4 text-lg'>
               I go by Noodles, and I am a Dutch computer science student. The software industry is dominated by the English language as well as many other industries. Therefore, English is my preferred language for nearly all tasks. I perfected my English skills by following the Cambridge English: Advanced (CAE) course from which I have graduated so I can help people like you.
               <br></br><br></br>
-              Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link href='https://noodles.services/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
+              Other than that, I like programming websites, mobile applications, and games. Have a look at my projects on my <Link legacyBehavior href='https://noodles.services/'><a className='cursor-pointer text-primary'>portfolio website</a></Link>! 
             </p>
           </div>
         </div>

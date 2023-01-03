@@ -7,20 +7,20 @@ const Services = () => {
       <div className='flex smaller:flex-col lg:flex-row justify-center'>
         <Service 
           title='Transcription' 
-          description='I will transcribe audio or speech from English to Dutch or from Dutch to English with options for clean verbatim or non-verbatim transcription.'
-          price='0.025'
+          description='I will transcribe audio and speech in English or Dutch with options for clean verbatim or non-verbatim transcription.'
+          price='1.50'
           unit='minute'
           featured={false}/>
         <Service
           title='Translation' 
           description='I provide general and technical translation from English to Dutch or from Dutch to English for documents, books, software, websites, apps, manuals and more!'
-          price='0.025'
+          price='0.03'
           unit='word'
           featured={true}/>
         <Service 
           title='Proofreading' 
           description="Wrong translation will look unprofessional and might lead you to losing potential customers. I will proofread and correct any English or Dutch file to make sure it's professional."
-          price='0.015'
+          price='0.01'
           unit='word'
           featured={false}/>
       </div>
